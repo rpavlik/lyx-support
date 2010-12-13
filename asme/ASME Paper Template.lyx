@@ -1,0 +1,333 @@
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass asme
+\begin_preamble
+%% The class has several options
+%  onecolumn/twocolumn - format for one or two columns per page
+%  10pt/11pt/12pt - use 10, 11, or 12 point font
+%  oneside/twoside - format for oneside/twosided printing
+%  final/draft - format for final/draft copy
+%  cleanfoot - take out copyright info in footer leave page number
+%  cleanhead - take out the conference banner on the title page
+%  titlepage/notitlepage - put in titlepage or leave out titlepage
+%  
+%% The default is oneside, onecolumn, 10pt, final
+
+%%% Replace here with information related to your conference
+\confshortname{WINVR 2010}
+\conffullname{the ASME 2010 World Conference on Innovative Virtual Reality}
+
+%%%%% for date in a single month, use
+\confdate{12-14}
+\confmonth{May}
+%%%%% for date across two months, use
+%\confdate{August 30-September 2}
+\confyear{2010}
+\confcity{Ames, Iowa}
+\confcountry{USA}
+
+%%% Replace DETC2010/MECH-12345 with the number supplied to you 
+%%% by ASME for your paper.
+\papernum{DETC2010/MECH-12345}
+\end_preamble
+\options twocolumn,10pt,notitlepage
+\use_default_options true
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\float_placement t
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize letterpaper
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine natbib_numerical
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 0
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 2
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Title
+\end_layout
+
+\begin_layout Author
+First Author Name
+\begin_inset Flex Affiliation
+status open
+
+\begin_layout Plain Layout
+Address
+\begin_inset Newline newline
+\end_inset
+
+Email: emailhere
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Author
+Second Author Name
+\begin_inset Flex Affiliation
+status open
+
+\begin_layout Plain Layout
+Address
+\begin_inset Newline newline
+\end_inset
+
+Email: emailhere
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Abstract
+
+\shape italic
+Text of the abstract here.
+\end_layout
+
+\begin_layout Abstract
+
+\series bold
+Keywords: 
+\series default
+Comma separated, styled like this.
+\end_layout
+
+\begin_layout Section*
+Introduction
+\end_layout
+
+\begin_layout Standard
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+ Nunc augue enim, lacinia in varius congue, viverra euismod nisi.
+ Pellentesque volutpat faucibus sem.
+ Nam magna orci, placerat porttitor rutrum vitae, congue at lorem.
+ Aliquam sed justo eget ligula egestas laoreet.
+ Fusce vel massa tortor.
+ In in dolor eu nibh posuere ultricies.
+ In id enim vel quam auctor hendrerit id a velit.
+ Cras quis magna erat, et blandit ipsum 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "IEEEexample:article_typical"
+
+\end_inset
+
+.
+ Ut convallis feugiat lectus nec dignissim.
+ Sed sollicitudin elementum velit, eu pellentesque lorem pretium nec.
+ Aenean commodo neque a eros porttitor pharetra.
+ Fusce vestibulum dolor in mauris dignissim aliquet.
+\end_layout
+
+\begin_layout Standard
+Aliquam erat volutpat.
+ Proin eleifend, dui nec mattis cursus, ligula magna facilisis elit, vitae
+ malesuada arcu erat a ante.
+ Nulla sagittis justo eu felis luctus pulvinar.
+ Mauris varius turpis vel felis hendrerit rutrum.
+ Curabitur interdum sagittis lacus non mollis.
+ Nunc vitae enim ac felis scelerisque consequat non vel nulla.
+ Sed facilisis nibh id felis pharetra sed sollicitudin lacus ultrices.
+ Mauris pulvinar pellentesque nulla non interdum.
+ In hac habitasse platea dictumst.
+ Praesent imperdiet cursus dolor, vel sollicitudin tortor varius in.
+\end_layout
+
+\begin_layout Section*
+Background
+\end_layout
+
+\begin_layout Standard
+Donec lacus urna, ornare vitae auctor a, porttitor quis nunc.
+ In a felis felis.
+ Duis convallis elementum libero, non vehicula nibh tempor vitae.
+ Aliquam facilisis odio ac urna bibendum mattis.
+ Fusce purus dolor, volutpat nec porta quis, fringilla ac est.
+ Duis mi sapien, dictum sit amet ultrices nec, cursus hendrerit justo.
+ Nulla facilisi.
+ Nulla facilisi.
+ Donec nunc erat, eleifend id imperdiet vitae, dapibus eget dui.
+ Phasellus dolor quam, semper et pulvinar ut, faucibus quis odio.
+ Fusce libero metus, tristique vel vehicula congue, ornare id ipsum.
+\end_layout
+
+\begin_layout Standard
+Aenean iaculis auctor vulputate.
+ Morbi id nibh ipsum.
+ Aenean accumsan odio eget libero faucibus accumsan et in libero.
+ In non diam orci, quis volutpat urna.
+ Fusce consequat porta nibh sed tempor.
+ Donec volutpat semper mi sit amet consequat.
+ Donec fermentum vehicula erat, vel tincidunt orci feugiat bibendum.
+ Sed egestas ornare mauris, at imperdiet augue placerat a.
+ Quisque rutrum pretium tincidunt.
+ Maecenas vel enim leo.
+ Fusce semper diam ac quam condimentum bibendum.
+ Cras convallis venenatis leo id gravida.
+ Proin in elit eros.
+ Donec nisi odio, pharetra vitae ultricies id, tincidunt et tellus.
+ Cras ut erat dolor, ac rhoncus tellus.
+ Nunc velit dui, rutrum placerat tincidunt nec, adipiscing pharetra dolor.
+ Vestibulum lobortis vestibulum quam, ut facilisis nibh lacinia in.
+ Sed dui urna, posuere non posuere a, eleifend non lacus.
+ Duis tristique condimentum eros, eget feugiat turpis malesuada scelerisque.
+\end_layout
+
+\begin_layout Standard
+This is an image, as shown in Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:SAMPLE"
+
+\end_inset
+
+.
+ 
+\begin_inset Float figure
+placement t
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\family sans
+\series bold
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\family sans
+\series bold
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:SAMPLE"
+
+\end_inset
+
+SAMPLE FIGURE INSERTED ABOVE AT 90% COLUMN WIDTH
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Methodology
+\end_layout
+
+\begin_layout Standard
+This work involves equations, as given in eq.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:plane-area"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{equation}
+A(d)=\left(2d\tan\frac{\Theta_{h}}{2}-d_{LED}\right)\left(2d\tan\frac{\Theta_{v}}{2}\right)\label{eq:plane-area}\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Section*
+Conclusion
+\end_layout
+
+\begin_layout Standard
+Phasellus laoreet, lorem nec euismod blandit, lectus quam iaculis orci,
+ quis imperdiet libero massa eget augue.
+ Integer hendrerit, eros a sodales tincidunt, erat erat ultricies leo, id
+ vulputate neque nisi ut urna.
+ Cras congue enim nec lectus pharetra pulvinar.
+ Nullam consectetur pretium nibh, eget scelerisque nulla tincidunt ut.
+ Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+ cubilia Curae; In augue enim, vestibulum at pretium non, vulputate vitae
+ tellus.
+ Donec nec gravida purus.
+ Nulla vel neque leo, vel pellentesque diam.
+ Ut ultricies enim eu odio fermentum varius.
+ Nulla libero quam, interdum vel varius sed, venenatis eget quam.
+ Integer varius consequat commodo.
+\end_layout
+
+\begin_layout Acknowledgments
+Acknowledgements go here.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "IEEEexample"
+options "asme_journals"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

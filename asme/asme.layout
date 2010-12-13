@@ -1,0 +1,63 @@
+#% Do not delete the line below; configure depends on this
+#  \DeclareLaTeXClass[asme2e]{article (ASME paper)}
+
+
+Format 11
+Columns 2
+Input article.layout
+
+OutputType latex
+
+NoStyle Part
+NoStyle Part*
+NoStyle Date
+NoStyle Address
+NoStyle "Right Address"
+
+Style Abstract
+	LabelString "ABSTRACT"
+	LabelType Top_Environment
+	ParIndent ""
+	LabelIndent ""
+	LeftMargin           ""
+	RightMargin          ""
+End
+
+Style Acknowledgments
+	Align		Left
+	AlignPossible	Left
+	LabelFont
+		Size		Larger
+		Series		Bold
+	EndFont
+	LabelString	ACKNOWLEDGMENT
+	LabelType	Top_Environment
+	LatexType	Environment
+	LatexName	acknowledgment
+	Category	BackMatter
+	TopSep                1.3
+	BottomSep             0.7
+	ParSep                0.7
+End
+
+Style Bibliography
+	LabelString           "REFERENCES"
+	LabelBottomSep        1.2
+	LabelFont
+	  Series              Bold
+	  Size                Larger
+	EndFont
+End
+
+InsetLayout Affiliation
+	Decoration Classic
+	LyxType charstyle
+	CustomPars 0
+	LatexType Command
+	LatexName affiliation
+	LabelString Affiliation
+	KeepEmpty 1
+	
+End
+
+

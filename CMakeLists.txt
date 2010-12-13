@@ -12,4 +12,5 @@ set(LYX_LAYOUTS_DIR "${INSTALL_LYX_DIR}/layouts")
 set(BIBTEX_BST_DIR "${INSTALL_TEX_DIR}/bibtex/bst")
 set(LATEX_CLS_DIR "${INSTALL_TEX_DIR}/tex/latex")
 
+add_subdirectory(asme)
 add_subdirectory(ieee-vgtc-conferences)
