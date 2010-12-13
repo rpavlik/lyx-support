@@ -4,7 +4,7 @@ install(FILES asme2e.cls
 install(FILES asme_journals/asme_journals.bst
 	DESTINATION "${BIBTEX_BST_DIR}/asme_journals/")
 
-install(FILES asme_journals/asmems4.bst
+install(FILES asmems4/asmems4.bst
 	DESTINATION "${BIBTEX_BST_DIR}/asmems4/")
 
 install(FILES asme2e.layout
