@@ -2,7 +2,7 @@
 # create things for this
 
 cmake_minimum_required(VERSION 2.8)
-project(lyx-support NONE)
+#project(lyx-support NONE)
 
 set(INSTALL_LYX_DIR "$ENV{HOME}/.lyx")
 set(INSTALL_TEX_DIR "$ENV{HOME}/texmf")
