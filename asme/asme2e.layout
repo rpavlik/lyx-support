@@ -15,12 +15,14 @@ NoStyle Address
 NoStyle "Right Address"
 
 Style Abstract
-	LabelString "ABSTRACT"
+	LabelString "Abstract"
 	LabelType Top_Environment
 	ParIndent ""
 	LabelIndent ""
 	LeftMargin           ""
 	RightMargin          ""
+	TocLevel              1
+	NextNoIndent          0
 End
 
 Style Acknowledgments
@@ -30,7 +32,7 @@ Style Acknowledgments
 		Size		Larger
 		Series		Bold
 	EndFont
-	LabelString	ACKNOWLEDGMENT
+	LabelString	"Acknowledgement"
 	LabelType	Top_Environment
 	LatexType	Environment
 	LatexName	acknowledgment
@@ -41,7 +43,7 @@ Style Acknowledgments
 End
 
 Style Bibliography
-	LabelString           "REFERENCES"
+	LabelString           "References"
 	LabelBottomSep        1.2
 	LabelFont
 	  Series              Bold
@@ -57,7 +59,13 @@ InsetLayout Affiliation
 	LatexName affiliation
 	LabelString Affiliation
 	KeepEmpty 1
-	
+End
+
+Style Section
+	NextNoIndent          0
+End
+Style Section*
+	NextNoIndent          0
 End
 
 
