@@ -4,8 +4,30 @@
 cmake_minimum_required(VERSION 2.8)
 #project(lyx-support NONE)
 
-set(INSTALL_LYX_DIR "$ENV{HOME}/.lyx")
-set(INSTALL_TEX_DIR "$ENV{HOME}/texmf")
+find_file(INSTALL_LYX_DIR
+	NAMES
+	.lyx
+	lyx
+	PATHS
+	"$ENV{HOME}"
+	"$ENV{UserProfile}")
+find_file(INSTALL_TEX_DIR
+	NAMES
+	.texmf
+	texmf
+	PATHS
+	"$ENV{HOME}"
+	"$ENV{UserProfile}")
+
+#set(INSTALL_LYX_DIR "$ENV{HOME}/.lyx")
+
+if(NOT INSTALL_LYX_DIR)
+	message(FATAL_ERROR "Must have a LyX user directory specified!")
+endif()
+
+if(NOT INSTALL_TEX_DIR)
+	message(FATAL_ERROR "Must have a TeX user directory specified!")
+endif()
 
 set(LYX_TEMPLATES_DIR "${INSTALL_LYX_DIR}/templates")
 set(LYX_LAYOUTS_DIR "${INSTALL_LYX_DIR}/layouts")
