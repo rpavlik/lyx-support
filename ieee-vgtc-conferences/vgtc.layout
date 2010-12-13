@@ -1,0 +1,136 @@
+#% Do not delete the line below; configure depends on this
+#  \DeclareLaTeXClass[vgtc]{article (IEEE VGTC conference paper)}
+
+
+Format 11
+Columns 2
+Input article.layout
+
+OutputType latex
+
+ClassOptions
+	FontSize "9|10|11|12"
+	PageStyle "empty|cameraready|review|widereview|preprint|journal|electronic"
+End
+
+AddToPreamble
+	\usepackage{mathptmx}
+	\usepackage{graphicx}
+	\usepackage{times}
+EndPreamble
+
+NoStyle Part
+NoStyle Subparagraph
+
+NoStyle Part*
+NoStyle Section*
+NoStyle Subsection*
+NoStyle Subsubsection*
+NoStyle Paragraph*
+NoStyle Subparagraph*
+
+NoStyle Date
+NoStyle Address
+NoStyle "Right Address"
+
+
+Style Abstract
+	LabelString "Abstract"
+	LabelType Top_Environment
+	ParIndent ""
+	LabelIndent ""
+	LeftMargin           ""
+	RightMargin          ""
+	LatexName abstract
+	LatexType Command
+End
+
+
+Style Abstract
+	Margin			Static
+	LatexType		Command
+	LatexName		abstract
+	Category		FrontMatter
+	NextNoIndent		1
+	LeftMargin		MMM
+	RightMargin		MMM
+	ParIndent		MM
+	ItemSep			0
+	TopSep			0.7
+	BottomSep		0.7
+	ParSep			0
+	Align			Block
+	AlignPossible	Block
+	LabelType		Top_Environment
+	LabelString		"Abstract"
+	LabelBottomSep	0.5
+	Font
+	  Size			Small
+	EndFont
+	LabelFont
+	  Series		Bold
+	  Size			Large
+	EndFont
+End
+
+
+Style "Index Terms"
+	CopyStyle		Abstract
+	Category		FrontMatter
+	LeftMargin		M
+	LabelType		Top_Environment
+	LabelString "Index Terms"
+	LatexName CCScatlist
+	LatexType Command
+End
+
+Style Bibliography
+	LabelString           "References"
+	LabelBottomSep        1.2
+	LabelFont
+	  Series              Bold
+	  Size                Larger
+	EndFont
+End
+
+Style Acknowledgments
+	Align		Left
+	AlignPossible	Left
+	LabelFont
+		Size		Larger
+		Series		Bold
+	EndFont
+	LabelString	Acknowledgements
+	LabelType	Top_Environment
+	LatexType	Command
+	LatexName	acknowledgements
+	Category	BackMatter
+	TopSep                1.3
+	BottomSep             0.7
+	ParSep                0.7
+End
+
+InsetLayout "Author Email"
+	Decoration Classic
+	LyxType Custom
+	CustomPars 0
+	LatexType Command
+	LatexName thanks
+	LabelString "email: "
+	LabelType Static
+	KeepEmpty 1
+	
+End
+
+InsetLayout Affiliation
+	Decoration Classic
+	LyxType charstyle
+	CustomPars 0
+	LatexType Command
+	LatexName affiliation
+	LabelString Affiliation
+	KeepEmpty 1
+	
+End
+
+
